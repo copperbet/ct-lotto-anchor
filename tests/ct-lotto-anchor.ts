@@ -44,7 +44,7 @@ const hexToU8_8 = (hex) => {
 describe("ct-lotto-anchor", () => {
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace.ctAnchorLotto as anchor.Program<CtLottoAnchor>;
+  const program = anchor.workspace.ctLottoAnchor as anchor.Program<CtLottoAnchor>;
   const provider = anchor.getProvider();
 
   const constants = {
