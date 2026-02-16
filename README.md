@@ -1,1 +1,1 @@
-# ct-anchor-lotto
+# ct-lotto-anchor

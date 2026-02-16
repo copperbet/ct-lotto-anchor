@@ -1,5 +1,5 @@
 import * as anchor from "@coral-xyz/anchor";
-import { CtAnchorLotto } from "../target/types/ct_anchor_lotto";
+import { CtLottoAnchor } from "../target/types/ct_lotto_anchor";
 import {
   LAMPORTS_PER_SOL,
   PublicKey,
@@ -41,10 +41,10 @@ const hexToU8_8 = (hex) => {
   return bytes.slice(0, 8);
 }
 
-describe("ct-anchor-lotto", () => {
+describe("ct-lotto-anchor", () => {
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace.ctAnchorLotto as anchor.Program<CtAnchorLotto>;
+  const program = anchor.workspace.ctAnchorLotto as anchor.Program<CtLottoAnchor>;
   const provider = anchor.getProvider();
 
   const constants = {
