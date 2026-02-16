@@ -9,7 +9,7 @@ use crate::lotto_util::*;
 use anchor_lang::prelude::*;
 use solana_security_txt::security_txt;
 
-declare_id!("Grq22DdRt4n2eBpGEa5XY6PNMors3vbwhb7pFZMQdzdn");
+declare_id!("CuNkHZPFXuz1FPLjLMsfpa3Zn41GmzK6vnJJV7EUQJ8z");
 
 security_txt! {
     name: "lotto.copperbet.com",

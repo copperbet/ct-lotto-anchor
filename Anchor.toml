@@ -1,13 +1,13 @@
 [toolchain]
+anchor_version = "0.32.1"
 package_manager = "yarn"
-anchor_version = "0.31.1"
 
 [features]
 resolution = true
 skip-lint = false
 
 [programs.devnet]
-ct_anchor_lotto = "Grq22DdRt4n2eBpGEa5XY6PNMors3vbwhb7pFZMQdzdn"
+ct_lotto_anchor = "CuNkHZPFXuz1FPLjLMsfpa3Zn41GmzK6vnJJV7EUQJ8z"
 
 [registry]
 url = "https://api.apr.dev"

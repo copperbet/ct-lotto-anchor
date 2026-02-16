@@ -1,12 +1,12 @@
 [package]
-name = "ct-anchor-lotto"
-version = "0.1.0"
+name = "ct-lotto-lotto"
+version = "1.0.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "ct_anchor_lotto"
+name = "ct_lotto_anchor"
 
 [features]
 default = []
@@ -18,7 +18,7 @@ idl-build = ["anchor-lang/idl-build"]
 
 
 [dependencies]
-anchor-lang = "0.31.1"
-switchboard-on-demand = "0.4.7"
-num-bigint = "0.4"
+anchor-lang = "0.32.1"
+switchboard-on-demand = "0.11.3"
+num-bigint = "0.4.6"
 solana-security-txt = "1.1.2"
