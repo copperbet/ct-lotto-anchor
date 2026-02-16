@@ -3,14 +3,23 @@ pub mod account_size;
 pub mod account_struct;
 pub mod lotto_enum;
 pub mod lotto_util;
-
 use crate::account_instruction::*;
 use crate::lotto_enum::*;
 use crate::lotto_util::*;
-
 use anchor_lang::prelude::*;
+use solana_security_txt::security_txt;
 
 declare_id!("Grq22DdRt4n2eBpGEa5XY6PNMors3vbwhb7pFZMQdzdn");
+
+security_txt! {
+    name: "lotto.copperbet.com",
+    project_url: "https://lotto.copperbet.com",
+    contacts: "email:admin@coppertech.in",
+    policy: "",
+    preferred_languages: "en",
+    source_code: "https://github.com/copperbet/ct-lotto-anchor",
+    auditors: "Nishanth D"
+}
 
 #[program]
 pub mod ct_anchor_lotto {
