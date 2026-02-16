@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+
+    "types": ["node", "mocha", "chai"],
+    "typeRoots": ["./node_modules/@types"],
+
+    "lib": ["es2020"],
+    "skipLibCheck": true
+  },
+
+  "include": ["tests/**/*.ts", "test/**/*.ts", "scripts/**/*.ts"],
+  "exclude": ["node_modules"]
+}
